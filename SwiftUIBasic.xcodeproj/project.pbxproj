@@ -10,6 +10,7 @@
 		107F533D3C3D2BEDE1F136BE /* Pods_SwiftUIBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B80CFED6FC98136266F228 /* Pods_SwiftUIBasic.framework */; };
 		26E6CA219F5198FB0B5CA1C8 /* Pods_SwiftUIBasicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86499F30FCF7A2652921CBCD /* Pods_SwiftUIBasicTests.framework */; };
 		4E0B5FF728711CD231DCBF6F /* Pods_SwiftUIBasic_SwiftUIBasicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2A3BFECF8FCDD6489A1006 /* Pods_SwiftUIBasic_SwiftUIBasicUITests.framework */; };
+		A22F01F124179194004D4DE8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22F01F024179194004D4DE8 /* ListView.swift */; };
 		A2BF16AA241622560069DDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16A9241622560069DDF4 /* AppDelegate.swift */; };
 		A2BF16AC241622560069DDF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16AB241622560069DDF4 /* SceneDelegate.swift */; };
 		A2BF16AE241622560069DDF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16AD241622560069DDF4 /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 		86499F30FCF7A2652921CBCD /* Pods_SwiftUIBasicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIBasicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		891C66F8D0669AC0A94FEFE3 /* Pods-SwiftUIBasicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIBasicTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIBasicTests/Pods-SwiftUIBasicTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9090A0EECA74757DE66208B5 /* Pods-SwiftUIBasic-SwiftUIBasicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIBasic-SwiftUIBasicUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIBasic-SwiftUIBasicUITests/Pods-SwiftUIBasic-SwiftUIBasicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A22F01F024179194004D4DE8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		A2BF16A6241622560069DDF4 /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BF16A9241622560069DDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BF16AB241622560069DDF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A2BF16AD241622560069DDF4 /* ContentView.swift */,
+				A22F01F024179194004D4DE8 /* ListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22F01F124179194004D4DE8 /* ListView.swift in Sources */,
 				A2BF16AA241622560069DDF4 /* AppDelegate.swift in Sources */,
 				A2BF16AC241622560069DDF4 /* SceneDelegate.swift in Sources */,
 				A2BF16AE241622560069DDF4 /* ContentView.swift in Sources */,
