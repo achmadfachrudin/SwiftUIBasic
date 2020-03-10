@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -101,6 +101,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A22F01EB24178D9C004D4DE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2BF16AD241622560069DDF4 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A22F01EC24178E8A004D4DE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A2BF169D241622560069DDF4 = {
 			isa = PBXGroup;
 			children = (
@@ -126,9 +141,10 @@
 		A2BF16A8241622560069DDF4 /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
+				A22F01EC24178E8A004D4DE8 /* Model */,
 				A2BF16A9241622560069DDF4 /* AppDelegate.swift */,
 				A2BF16AB241622560069DDF4 /* SceneDelegate.swift */,
-				A2BF16AD241622560069DDF4 /* ContentView.swift */,
+				A22F01EB24178D9C004D4DE8 /* View */,
 				A2BF16AF241622570069DDF4 /* Assets.xcassets */,
 				A2BF16B4241622570069DDF4 /* LaunchScreen.storyboard */,
 				A2BF16B7241622570069DDF4 /* Info.plist */,
@@ -173,7 +189,6 @@
 				891C66F8D0669AC0A94FEFE3 /* Pods-SwiftUIBasicTests.debug.xcconfig */,
 				5654F9017E930F765462969D /* Pods-SwiftUIBasicTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

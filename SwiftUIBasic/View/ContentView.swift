@@ -7,10 +7,17 @@
 //
 
 import SwiftUI
+import struct Kingfisher.KFImage
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        HStack() {
+             KFImage(URL(string: "https://kitabisa.com/static/images/logo-large.png"))
+            .resizable()
+            .frame(width: 90.0, height: 90.0, alignment: .center)
+            Text("Cobain").bold()
+            Spacer()
+        }
     }
 }
 
