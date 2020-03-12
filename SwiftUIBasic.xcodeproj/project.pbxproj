@@ -19,6 +19,11 @@
 		A2BF16B6241622570069DDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BF16B4241622570069DDF4 /* LaunchScreen.storyboard */; };
 		A2BF16C1241622580069DDF4 /* SwiftUIBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16C0241622580069DDF4 /* SwiftUIBasicTests.swift */; };
 		A2BF16CC241622580069DDF4 /* SwiftUIBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16CB241622580069DDF4 /* SwiftUIBasicUITests.swift */; };
+		A2FC40ED241A07DC006183DC /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40EC241A07DC006183DC /* Film.swift */; };
+		A2FC40EF241A087E006183DC /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40EE241A087E006183DC /* Films.swift */; };
+		A2FC40F1241A0918006183DC /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F0241A0918006183DC /* Displayable.swift */; };
+		A2FC40F5241A1240006183DC /* JokesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F4241A1240006183DC /* JokesData.swift */; };
+		A2FC40F7241A2C67006183DC /* ListObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F6241A2C67006183DC /* ListObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,11 @@
 		A2BF16C7241622580069DDF4 /* SwiftUIBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BF16CB241622580069DDF4 /* SwiftUIBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicUITests.swift; sourceTree = "<group>"; };
 		A2BF16CD241622580069DDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FC40EC241A07DC006183DC /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		A2FC40EE241A087E006183DC /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		A2FC40F0241A0918006183DC /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		A2FC40F4241A1240006183DC /* JokesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesData.swift; sourceTree = "<group>"; };
+		A2FC40F6241A2C67006183DC /* ListObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObserver.swift; sourceTree = "<group>"; };
 		EB2A3BFECF8FCDD6489A1006 /* Pods_SwiftUIBasic_SwiftUIBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIBasic_SwiftUIBasicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +118,7 @@
 			children = (
 				A2BF16AD241622560069DDF4 /* ContentView.swift */,
 				A22F01F024179194004D4DE8 /* ListView.swift */,
+				A2FC40F6241A2C67006183DC /* ListObserver.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +126,10 @@
 		A22F01EC24178E8A004D4DE8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2FC40EC241A07DC006183DC /* Film.swift */,
+				A2FC40EE241A087E006183DC /* Films.swift */,
+				A2FC40F0241A0918006183DC /* Displayable.swift */,
+				A2FC40F4241A1240006183DC /* JokesData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -435,9 +450,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22F01F124179194004D4DE8 /* ListView.swift in Sources */,
+				A2FC40EF241A087E006183DC /* Films.swift in Sources */,
+				A2FC40F1241A0918006183DC /* Displayable.swift in Sources */,
 				A2BF16AA241622560069DDF4 /* AppDelegate.swift in Sources */,
 				A2BF16AC241622560069DDF4 /* SceneDelegate.swift in Sources */,
+				A2FC40F5241A1240006183DC /* JokesData.swift in Sources */,
 				A2BF16AE241622560069DDF4 /* ContentView.swift in Sources */,
+				A2FC40ED241A07DC006183DC /* Film.swift in Sources */,
+				A2FC40F7241A2C67006183DC /* ListObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

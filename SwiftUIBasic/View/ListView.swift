@@ -10,9 +10,32 @@ import SwiftUI
 import Alamofire
 
 struct ListView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+    @ObservedObject private var observed = ListObserver()
+            @State private var showConnectionAlert = false
+
+        var body: some View {
+            NavigationView{
+                List(observed.jokes){ item in
+                    ContentView(data: item)
+                    }.navigationBarItems(
+                        trailing: Button(action: { self.showConnectionAlert = true}, label: { Text("Click Me") })
+                                .alert(isPresented: $showConnectionAlert) {
+                                    Alert(
+                                        title: Text("Cie"),
+                                        message: Text("Penasaran nih?"),
+                                        dismissButton: Alert.Button.default(
+                                            Text("OK"),
+                                            action: { self.showConnectionAlert = false }
+                                    ))
+                                }
+                )
+                .navigationBarTitle("SwiftUI Alamofire")
+            }
+        }
+        
+        func addJoke(){
+            observed.getJokes(count: 1)
+        }
 }
 
 struct ListView_Previews: PreviewProvider {

@@ -2,7 +2,7 @@ target 'SwiftUIBasic' do
   use_frameworks!
 
   pod 'Kingfisher/SwiftUI'
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 4.9.1'
 
 
   target 'SwiftUIBasicTests' do
