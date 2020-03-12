@@ -14,15 +14,13 @@ struct ContentView: View {
     var data: JokesData
 
     var body: some View {
-        Button(action: { self.fetchFilms() }) {
-            HStack() {
-                 KFImage(URL(string: "https://kitabisa.com/static/images/logo-large.png"))
-                .resizable()
-                .frame(width: 90.0, height: 90.0, alignment: .center)
-                Text(data.joke).bold()
-                Spacer()
-            }
-        }
+        HStack() {
+                KFImage(URL(string: "https://kitabisa.com/static/images/logo-large.png"))
+               .resizable()
+               .frame(width: 90.0, height: 90.0, alignment: .center)
+               Text(data.joke).bold()
+               Spacer()
+           }
     }
 }
 

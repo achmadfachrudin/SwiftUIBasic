@@ -29,7 +29,7 @@ struct ListView: View {
                                     ))
                                 }
                 )
-                .navigationBarTitle("SwiftUI Alamofire")
+                .navigationBarTitle("SwiftUI Alakadarnya")
             }
         }
         
