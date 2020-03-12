@@ -20,7 +20,7 @@
 		A2BF16C1241622580069DDF4 /* SwiftUIBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16C0241622580069DDF4 /* SwiftUIBasicTests.swift */; };
 		A2BF16CC241622580069DDF4 /* SwiftUIBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF16CB241622580069DDF4 /* SwiftUIBasicUITests.swift */; };
 		A2FC40F7241A2C67006183DC /* ListObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F6241A2C67006183DC /* ListObserver.swift */; };
-		A2FC40F9241A3A72006183DC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F8241A3A72006183DC /* Movie.swift */; };
+		A2FC40F9241A3A72006183DC /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC40F8241A3A72006183DC /* MovieResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		A2BF16CB241622580069DDF4 /* SwiftUIBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicUITests.swift; sourceTree = "<group>"; };
 		A2BF16CD241622580069DDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2FC40F6241A2C67006183DC /* ListObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObserver.swift; sourceTree = "<group>"; };
-		A2FC40F8241A3A72006183DC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A2FC40F8241A3A72006183DC /* MovieResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
 		EB2A3BFECF8FCDD6489A1006 /* Pods_SwiftUIBasic_SwiftUIBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIBasic_SwiftUIBasicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 		A22F01EC24178E8A004D4DE8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A2FC40F8241A3A72006183DC /* Movie.swift */,
+				A2FC40F8241A3A72006183DC /* MovieResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -442,7 +442,7 @@
 			files = (
 				A22F01F124179194004D4DE8 /* ListView.swift in Sources */,
 				A2BF16AA241622560069DDF4 /* AppDelegate.swift in Sources */,
-				A2FC40F9241A3A72006183DC /* Movie.swift in Sources */,
+				A2FC40F9241A3A72006183DC /* MovieResult.swift in Sources */,
 				A2BF16AC241622560069DDF4 /* SceneDelegate.swift in Sources */,
 				A2BF16AE241622560069DDF4 /* ItemView.swift in Sources */,
 				A2FC40F7241A2C67006183DC /* ListObserver.swift in Sources */,
