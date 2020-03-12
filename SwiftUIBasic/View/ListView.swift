@@ -15,8 +15,8 @@ struct ListView: View {
 
         var body: some View {
             NavigationView{
-                List(observed.jokes){ item in
-                    ContentView(data: item)
+                List(observed.movies){ item in
+                    ItemView(data: item)
                     }.navigationBarItems(
                         trailing: Button(action: { self.showConnectionAlert = true}, label: { Text("Click Me") })
                                 .alert(isPresented: $showConnectionAlert) {
@@ -34,7 +34,7 @@ struct ListView: View {
         }
         
         func addJoke(){
-            observed.getJokes(count: 1)
+            observed.getMovies()
         }
 }
 

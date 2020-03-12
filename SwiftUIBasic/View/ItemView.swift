@@ -10,15 +10,15 @@ import SwiftUI
 import Alamofire
 import struct Kingfisher.KFImage
 
-struct ContentView: View {
-    var data: JokesData
+struct ItemView: View {
+    var data: Movie
 
     var body: some View {
         HStack() {
-                KFImage(URL(string: "https://kitabisa.com/static/images/logo-large.png"))
+            KFImage(data.posterURL)
                .resizable()
-               .frame(width: 90.0, height: 90.0, alignment: .center)
-               Text(data.joke).bold()
+               .frame(width: 120.0, height: 120.0, alignment: .center)
+            Text(data.title).bold()
                Spacer()
            }
     }
@@ -26,6 +26,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(data: JokesData(id: 0, joke: "yoyo"))
+        ItemView(data: Movie(id: 0, title: "yoyo", posterPath: "/asd", overview: "overview", releaseDate: "21 Des"))
     }
 }
